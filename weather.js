@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	$(".getweather").on("click",function(){
-		$.getJSON('http://v.juhe.cn/weather/index?callback=?',{"cityname":"深圳","format":2,"key":"4bccaab34c3d01e40efed4ca4a20d219"},function(data) {
+		$.getJSON('https://v.juhe.cn/weather/index?callback=?',{"cityname":"深圳","format":2,"key":"4bccaab34c3d01e40efed4ca4a20d219"},function(data) {
 			for (var i=0;i<7;i++){
 				if(i==0){
 
