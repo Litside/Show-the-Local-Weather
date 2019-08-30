@@ -1,0 +1,16 @@
+.head{
+	font-size: 36px;
+	color: orange;
+	text-align: center;
+}
+
+.line1{
+	width: 90%;
+	color: gray;
+}
+.getweather{
+	border-radius: 5px;
+}
+.weather4.shidu{
+	background-color: red;
+}
